@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Besop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **☀️  프로젝트 소개**
 
-## Available Scripts
+참고 사이트 :  [https://www.aesop.com/kr/](https://www.aesop.com/kr/)
 
-In the project directory, you can run:
+Aesop의 메인페이지를 클론코딩하여 Besop 사이트 구현
 
-### `npm start`
+## 👀  **프로젝트 진행 배경**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+본격적으로 Web3 프로젝트를 진행하기에 앞서, 웹개발 기초를 다지고자 클론 코딩 프로젝트를 시작합니다. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+프로젝트 기간이 짧고 개인프로젝트이기 때문에 React를 활용한 프론트엔드 완성을 1차 목표로 잡았습니다.
 
-### `npm test`
+시간이 남을 시 백엔드 쪽 기능도 구현하고자 합니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🕰 **진행 기간**
 
-### `npm run build`
+2022.06.07 ~ 2022.06.15
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## **☀️  Functions**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🔥 **필수 구현 사항 (Bare minimum requirement)**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![ezgif.com-gif-maker (1).gif](Besop%205f6a82c1354145bab2d370751ae0e6ba/ezgif.com-gif-maker_(1).gif)
 
-### `npm run eject`
+1. **카테고리 구현**
+    - 카테고리 버튼 클릭 시 모달
+    - 모달에는 각 서브카테고리 구현
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![ezgif.com-gif-maker (3).gif](Besop%205f6a82c1354145bab2d370751ae0e6ba/ezgif.com-gif-maker_(3).gif)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **이미지 슬라이드 구현**
+    - 이전 버튼과 다음 버튼으로 이동
+    - 전체 슬라이드 대비 현재 보여지는 슬라이드의 위치를 Bar형태로 이미지화
+    - 첫 슬라이드와 마지막 슬라이드에서는 각각 이전/다음 버튼이 나타나지 않도록함
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![ezgif.com-gif-maker (2).gif](Besop%205f6a82c1354145bab2d370751ae0e6ba/ezgif.com-gif-maker_(2).gif)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **애니메이션**
+    - 스크롤 이동 시 부드러운 이미지 전환 (Fade In)
 
-## Learn More
+### 🔥 **추가 구현 사항 (Advanced)**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+회원가입
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- 이메일, 비밀번호로 회원 가입
+- 비밀번호 변경 가능
+- OAuth
 
-### Code Splitting
+제품별 상세페이지
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🌼 **Wireframe Design**
 
-### Analyzing the Bundle Size
+![[Besop] Main.png](Besop%205f6a82c1354145bab2d370751ae0e6ba/Besop_Main.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Main Page Design
 
-### Making a Progressive Web App
+![[Besop] Modal.png](Besop%205f6a82c1354145bab2d370751ae0e6ba/Besop_Modal.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Modal Design
 
-### Advanced Configuration
+- Navigation 탭에 있는 카테고리 항목 클릭 했을 때 나오는 Category Modal
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🧑🏻‍💻 **Tech Stacks**
 
-### Deployment
+**Programming Language** 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Javascript
 
-### `npm run build` fails to minify
+**Frontend**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React.js
+- Styled-Component
+- Redux
+
+**Backend (Optional)**
+
+- Node
+- Express
+- MongoDB
+
+**Source Version Management**
+
+- Git
+
+## 🌈 **Github Repo**
+
+[https://github.com/jongseokleedev/besop](https://github.com/jongseokleedev/besop)
