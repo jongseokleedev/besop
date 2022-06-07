@@ -28,6 +28,8 @@ Aesop의 메인페이지를 클론코딩하여 Besop 사이트 구현
     - 카테고리 버튼 클릭 시 모달
     - 모달에는 각 서브카테고리 구현
 
+![ezgif.com-gif-maker (1).gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/eef0fde9-59f7-496f-9bb5-6b1ca10dae56/ezgif.com-gif-maker_(1).gif)
+
 ![ezgif.com-gif-maker (3).gif](Besop%205f6a82c1354145bab2d370751ae0e6ba/ezgif.com-gif-maker_(3).gif)
 
 1. **이미지 슬라이드 구현**
@@ -51,7 +53,6 @@ Aesop의 메인페이지를 클론코딩하여 Besop 사이트 구현
 제품별 상세페이지
 
 ## 🌼 **Wireframe Design**
-
 ![[Besop] Main.png](Besop%205f6a82c1354145bab2d370751ae0e6ba/Besop_Main.png)
 
 Main Page Design
